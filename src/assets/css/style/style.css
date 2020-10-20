@@ -1,0 +1,276 @@
+.dash-background {
+    background: url(../../images/claimed-grade.png);
+    background-size: cover;
+    border-radius: 10px;
+    height: 40vh; 
+}
+
+.row-padding{
+    display: grid;
+    grid-auto-rows: auto;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.dash-pair {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.dash-pool-background {
+    background: none;
+    border: 2px solid rgb(86, 90, 105 , 0.5);
+    padding: 1rem;
+    z-index: 1;
+    border-radius: 10px;
+    flex: auto;
+}
+
+.dash-rate-background{
+    background: none;
+    border: 2px solid rgb(86, 90, 105 , 0.5);
+    padding: 1rem;
+    z-index: 1; 
+    border-radius: 10px; 
+    flex: auto;
+}
+
+.dash-rp-row {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+@media (max-width: 992px) {
+    .dash-rp-row {
+        display: inline-block !important;
+    }
+    .star-info-text-bg {
+        margin-top: 200px !important;
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        visibility: hidden;
+        display: none;
+    }
+    .cover .btn-lg {
+        font-weight: 400 !important;
+    }
+    .cover {
+        padding-top: 3.5rem !important;
+    }
+    .unclaimed-title-text {
+       
+    }
+    .dash-unclaimed-balance{
+        
+    }
+ }
+
+.dash-pool-title {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.dash-rate-title{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.dash-rate-number{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.dash-pool-number{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.dash-deposit-row{
+    display: grid;
+    grid-auto-rows: auto;
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+    background: radial-gradient(91.85% 100% at 1.84% 0%,rgba(224, 160, 38, 0.3) 0%, rgb(0, 0, 0) 100%);
+    
+}
+
+.dash-balance-row{
+    display: grid;
+    grid-auto-rows: auto;
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgb(64, 68, 79);
+    opacity: 0.4;
+    margin-top: -20px;
+    padding: 32px 1.25rem 1rem;
+    z-index: 1;
+    height: 100px;
+    align-items: baseline;
+}
+
+.dash-align{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.dash-unclaimed-align{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.claim-area{
+    position: relative;
+    bottom: 10px;
+}
+
+.dash-balance{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 600;
+    color: white;
+    font-size: 36px;
+}
+
+.dash-unclaimed-balance{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 600;
+    color: white;
+    font-size: 36px;
+}
+
+.dash-uni-v2-pair{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 500;
+    color: white;
+}
+
+.dash-claim-rate{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 500;
+    color: white;
+}
+
+.deposit-title-text{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 600;
+    color: white;
+}
+
+.unclaimed-title-text{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 600;
+    color: white;
+}
+
+.dash-claimed-grade{
+    background: url(../../images/claimed-grade.png);
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    border-radius: 12px;
+    opacity: 0.4;
+    top: -100px;
+    left: -100px;
+    transform: rotate(-15deg);
+    user-select: none;
+    filter: saturate(0);
+}
+
+.extra-info{
+    font-size: 12px;
+    font-weight: 600;
+    color: #ff1428;
+}
+
+.xeth-info{
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+}
+
+.efuel-info{
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+}
+
+.btn-connect{
+    color: rgba(255, 255, 255, 0.5) !important;
+    /* text-shadow: none; */
+    background-color: none !important;
+    border: 2px solid #ff1428 !important;
+}
+
+.star-info-text-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    display: inline-grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
