@@ -1,4 +1,4 @@
-# xETH-Liquidity-DApp
+# xETH-Example-Landing
 
 This build is currently up to date with gulps latests version and will not work with gulp@3.9.1 due to breaking changes and major security updates please refer to the [Official Gulp Website](https://gulpjs.com/docs/en/getting-started/quick-start) for more information on Gulp@4.0.2 
 
